@@ -1,0 +1,10 @@
+engines:
+  phan:
+    enabled: true
+    config:
+      file_extensions: "php"
+exclude_paths:
+- "cool/about.php"
+ratings:
+  paths:
+  - "**/*.php"
